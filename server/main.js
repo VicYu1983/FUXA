@@ -470,6 +470,8 @@ if (rewrittenAssets.size) {
     });
 }
 
+app.use(BASE_PATH + '/view-editor', express.static(path.resolve(__dirname, 'view-editor')));
+
 for (const shellPath of SHELL_ROUTES) {
     app.use(BASE_PATH + shellPath, express.static(settings.httpStatic));
 }

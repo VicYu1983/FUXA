@@ -3,6 +3,7 @@
     "app.home": "ホーム",
     "app.lab": "実行",
     "app.editor": "エディター",
+    "editor.tools-view-editor": "ビュー編集ツールを開く",
     "header.new-project": "新規プロジェクト",
     "header.save-project": "プロジェクトを保存",
     "header.save-project-tooltip": "未保存の変更を全て保存",

@@ -3,6 +3,7 @@
     "app.home": "Главная",
     "app.lab": "Лаборатория",
     "app.editor": "Редактор",
+    "editor.tools-view-editor": "Открыть инструмент редактирования видов",
     "header.new-project": "Новый проект",
     "header.save-project": "Сохранить проект",
     "header.save-project-tooltip": "Сохранение всех изменений в проекте",

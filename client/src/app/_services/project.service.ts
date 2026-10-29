@@ -1317,6 +1317,28 @@ export class ProjectService {
         return this.projectData;
     }
 
+    getProjectSnapshot(): ProjectData {
+        return this.convertToSave(this.projectData);
+    }
+
+    async replaceProjectAndSave(project: ProjectData): Promise<ProjectData> {
+        const previousProject = this.projectData;
+        this.projectLoadRequestId++;
+        this.projectData = project;
+        this.loadingViews.clear();
+
+        try {
+            await firstValueFrom(this.storage.setServerProject(this.projectData));
+            this.projectOld = JSON.parse(JSON.stringify(this.projectData));
+            this.ready = true;
+            this.notifyToLoadHmi();
+            return this.getProjectSnapshot();
+        } catch (error) {
+            this.projectData = previousProject;
+            throw error;
+        }
+    }
+
     checkServer() {
         return this.storage.checkServer();
     }

@@ -3,6 +3,7 @@
     "app.home": "Hem",
     "app.lab": "Labb",
     "app.editor": "Redigerare",
+    "editor.tools-view-editor": "Öppna vyredigeringsverktyget",
     "header.new-project": "Nytt projekt",
     "header.save-project": "Spara projekt",
     "header.save-project-tooltip": "Spara alla osparade projektändringar",

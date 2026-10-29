@@ -3,6 +3,7 @@
     "app.home": "Casa",
     "app.lab": "Lab",
     "app.editor": "Editor",
+    "editor.tools-view-editor": "Abrir ferramenta de edição de vistas",
     "header.new-project": "Novo Projeto",
     "header.save-project": "Salvar Projeto",
     "header.save-project-tooltip": "Salve todas as alterações pendentes do projeto",

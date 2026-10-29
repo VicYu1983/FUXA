@@ -3,6 +3,7 @@
     "app.home": "홈",
     "app.lab": "랩",
     "app.editor": "편집자",
+    "editor.tools-view-editor": "뷰 편집 도구 열기",
     "header.new-project": "새 프로젝트",
     "header.save-project": "프로젝트 저장",
     "header.save-project-tooltip": "모든 미해결 프로젝트 변경 사항 저장",

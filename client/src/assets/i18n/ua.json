@@ -3,6 +3,7 @@
     "app.home": "додому",
     "app.lab": "Лабораторія",
     "app.editor": "редактор",
+    "editor.tools-view-editor": "Відкрити інструмент редагування подань",
     "header.new-project": "Новий проект",
     "header.save-project": "Зберегти проект",
     "header.save-project-tooltip": "Збережіть усі незавершені зміни проекту",

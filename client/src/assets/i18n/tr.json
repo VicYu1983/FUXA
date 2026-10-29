@@ -3,6 +3,7 @@
     "app.home": "Ana Ekran",
     "app.lab": "Test Merkezi",
     "app.editor": "Tasarlama Ekranı",
+    "editor.tools-view-editor": "Görünüm düzenleme aracını aç",
     "header.new-project": "Yeni",
     "header.save-project": "Kaydet",
     "header.save-project-tooltip": "Tüm bekleyen proje değişikliklerini kaydedin",

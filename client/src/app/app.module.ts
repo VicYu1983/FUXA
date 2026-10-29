@@ -234,6 +234,7 @@ import { TagPropertyEditMelsecComponent } from './device/tag-property/tag-proper
 import { SchedulerConfirmDialogComponent } from './gauges/controls/html-scheduler/scheduler-confirm-dialog/scheduler-confirm-dialog.component';
 import { MatIconRegistry } from '@angular/material/icon';
 import { NodeRedFlowsComponent } from './integrations/node-red/node-red-flows/node-red-flows.component';
+import { ViewEditorHostComponent } from './integrations/view-editor-host/view-editor-host.component';
 import { ApiKeysListComponent } from './apikeys/api-keys-list/api-keys-list.component';
 import { ApiKeyPropertyComponent } from './apikeys/api-key-property/api-key-property.component';
 import { TagPropertyEditRedisComponent } from './device/tag-property/tag-property-edit-redis/tag-property-edit-redis.component';
@@ -436,6 +437,7 @@ export const myCustomTooltipDefaults: MatTooltipDefaultOptions = {
         SchedulerPropertyComponent,
         SchedulerConfirmDialogComponent,
         NodeRedFlowsComponent,
+        ViewEditorHostComponent,
         ApiKeysListComponent,
         ApiKeyPropertyComponent,
         TagPropertyEditRedisComponent,

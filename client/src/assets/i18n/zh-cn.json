@@ -3,6 +3,7 @@
     "app.home": "首页",
     "app.lab": "实验室",
     "app.editor": "编辑器",
+    "editor.tools-view-editor": "打开视图编辑工具",
     "header.new-project": "新建项目",
     "header.save-project": "保存项目",
     "header.save-project-tooltip": "保存所有未完成的项目修改",

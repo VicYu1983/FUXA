@@ -43,6 +43,11 @@ export class SetupComponent {
         this.dialogRef.close();
     }
 
+    onOpenViewEditor() {
+        this.onNoClick();
+        this.router.navigate(['/viewEditor']);
+    }
+
     goTo(destination: string, type?: string) {
         this.onNoClick();
         let navigationExtras: NavigationExtras = {

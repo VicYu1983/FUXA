@@ -3,6 +3,7 @@
     "app.home": "首頁",
     "app.lab": "實驗室",
     "app.editor": "編輯器",
+    "editor.tools-view-editor": "開啟視圖編輯工具",
     "header.new-project": "新建專案",
     "header.save-project": "儲存專案",
     "header.save-project-tooltip": "儲存所有未完成的專案修改",
