@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="90" viewBox="0 0 180 90">
+  <!-- Test widget: one icon, one label, and parameter tests (_pn_, _ps_, _pc_). Click the icon to increment _pn_value and post it back to FUXA. -->
+  <g id="icon" cursor="pointer">
+    <circle id="iconBg" cx="40" cy="45" r="24" fill="#3366cc"/>
+    <path d="M30 45 L38 53 L52 37" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label" x="78" y="38" font-family="sans-serif" font-size="14" fill="#222222">Label</text>
+  <text id="value" x="78" y="60" font-family="sans-serif" font-size="12" fill="#666666">Value: 50</text>
+  <script><![CDATA[
+    //!export-start
+    var _pn_value = 50;
+    var _ps_label = 'Label';
+    var _pc_color = '#3366cc';
+    //!export-end
+
+    function putValue(id, value) {
+      if (id === '_pn_value') {
+        document.getElementById('value').textContent = 'Value: ' + value;
+      } else if (id === '_ps_label') {
+        document.getElementById('label').textContent = value;
+      } else if (id === '_pc_color') {
+        document.getElementById('iconBg').setAttribute('fill', value);
+      }
+    }
+
+    document.getElementById('icon').addEventListener('click', function () {
+      _pn_value = _pn_value + 1;
+      document.getElementById('value').textContent = 'Value: ' + _pn_value;
+      postValue('_pn_value', _pn_value);
+    });
+  ]]></script>
+</svg>
