@@ -8,9 +8,7 @@ const datatypes = require('./datatypes');
 const utils = require('../../utils');
 const deviceUtils = require('../device-utils');
 const net = require("net");
-
-// 爲了解決 Modbus 客戶端同時請求過多導致的問題，限制同時請求數量
-const TOKEN_LIMIT = 1;
+const TOKEN_LIMIT = 100;
 const Mutex = require("async-mutex").Mutex;
 
 function MODBUSclient(_data, _logger, _events, _runtime) {
